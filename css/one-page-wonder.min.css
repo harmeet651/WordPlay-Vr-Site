@@ -38,3 +38,18 @@
  #students{
      font-size: 75px;
  }
+ #plane img{
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    width: 80px;
+    height: 40px;
+    opacity: 0.4;
+    animation-name: windBlow;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+@keyframes windBlow{
+    from{transform: translateX(-285px)}
+    to{transform: translateX(1400px)}
+}
