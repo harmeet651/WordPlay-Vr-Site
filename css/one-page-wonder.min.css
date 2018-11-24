@@ -53,3 +53,6 @@
     from{transform: translateX(-285px)}
     to{transform: translateX(1400px)}
 }
+.rounded-circle {
+     border-radius: 0% !important;
+}
