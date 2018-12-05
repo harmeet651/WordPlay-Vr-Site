@@ -6,14 +6,14 @@
  .btn-xl{text-transform:uppercase;padding:1.5rem 3rem;font-size:.9rem;font-weight:700;letter-spacing:.1rem}
  .bg-black{background-color:#000!important}
  .rounded-pill{border-radius:5rem}
- .navbar-custom{padding-top:1rem;padding-bottom:1rem;background-color:rgba(236, 228, 228, 0.7)}
+ .navbar-custom{padding-top:1rem;padding-bottom:1rem;background-color:#87f50a}
  .navbar-custom .navbar-brand{text-transform:uppercase;font-size:1rem;letter-spacing:.1rem;font-weight:700}
  .navbar-custom .navbar-nav .nav-item .nav-link{text-transform:uppercase;font-size:.8rem;font-weight:700;letter-spacing:.1rem;color:#000}
- header.masthead{position:relative;overflow:hidden;padding-top:calc(7rem + 72px);padding-bottom:7rem;background:-webkit-gradient(linear,left bottom,left top,from(#ff6a00),to(#008055));background:linear-gradient(0deg,#ff6a00 0,#008055 100%);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover}
+ header.masthead{position:relative;overflow:hidden;padding-top:calc(7rem + 72px);padding-bottom:7rem;background:-webkit-gradient(linear,left bottom,left top,from(#f5f3f2),to(#87f50a));background:linear-gradient(0deg,#f5f3f2 0,#87f50a 100%);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover}
  header.masthead .masthead-content{z-index:1;position:relative}
  header.masthead .masthead-content .masthead-heading{font-size:4rem}
  header.masthead .masthead-content .masthead-subheading{font-size:2rem}
- header.masthead .bg-circle{z-index:0;position:absolute;border-radius:100%;background:-webkit-gradient(linear,left bottom,left top,from(#008055),to(#ff6a00));background:linear-gradient(0deg,#008055 0,#ff6a00 100%)}
+ header.masthead .bg-circle{z-index:0;position:absolute;border-radius:100%;background:-webkit-gradient(linear,left bottom,left top,from(#87f50a),to(#f5f3f2));background:linear-gradient(0deg,#87f50a 0,#f5f3f2 100%)}
  header.masthead .bg-circle-1{height:90rem;width:90rem;bottom:-55rem;left:-55rem}
  header.masthead .bg-circle-2{height:50rem;width:50rem;top:-25rem;right:-25rem}
  header.masthead .bg-circle-3{height:20rem;width:20rem;bottom:-10rem;right:5%}
@@ -21,18 +21,18 @@
  @media (min-width:992px){header.masthead{padding-top:calc(10rem + 55px);padding-bottom:10rem}
  header.masthead .masthead-content .masthead-heading{font-size:6rem}
  header.masthead .masthead-content .masthead-subheading{font-size:4rem}}
- .bg-primary{background-color:#008055!important}
- .btn-primary{background-color:#008055;border-color:#008055}
- .btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#008055!important;border-color:#008055!important}
+ .bg-primary{background-color:#a7e78e!important}
+ .btn-primary{background-color:#f3cb49;border-color:#87f50a}
+ .btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#cbf535!important;border-color:#87f50a!important}
  .btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(0,128,85,.5);box-shadow:0 0 0 .2rem rgba(0,128,85,.5)}
- .btn-secondary{background-color:#ff6a00;border-color:#ff6a00}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#c50!important;border-color:#c50!important}
+ .btn-secondary{background-color:#f5f3f2;border-color:#f5f3f2}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#c50!important;border-color:#c50!important}
  .btn-secondary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(255,106,0,.5);box-shadow:0 0 0 .2rem rgba(255,106,0,.5)}
  .ulClass, #students, #professors{
      padding-top: 10px;
      text-align: center;
  }
  #logo{
-     width: 200px;
+     width: 150px;
      height: 50px;
  }
  #students{
